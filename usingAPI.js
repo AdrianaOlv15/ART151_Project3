@@ -28,6 +28,7 @@
             url: url,
             type: "GET",
             data: location_params,
+            contentType: "application/json",
             success: function(resp){ console.log(resp); },
             error: function(error){ console.log(error); }
         });

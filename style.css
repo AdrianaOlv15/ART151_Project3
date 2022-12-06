@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Silkscreen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Silkscreen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Oswald:wght@600&family=Silkscreen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Silkscreen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Silkscreen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Lobster+Two:ital@1&family=Silkscreen&display=swap');
+
+body{
+    background-color: #0099ff;
+    text-align: center;
+    font-family: 'Alexandria', sans-serif;
+
+}
+
+.title{
+    background-color:#ff8400;
+    font-family: 'Alexandria', sans-serif;
+    color:rgb(255, 255, 255); 
+    font-size:300%; 
+}
+.tp{background-color:#ff0000; font-size:200%;}
+.hu{background-color:#b700ff; font-size:200%;}
+.pr{background-color:#00d49b; font-size:200%;}
+.ws{background-color:#1500ff; font-size:200%;}
+
+.window_btn{
+    background-color:#ff8400;
+    font-family: 'Alexandria', sans-serif;
+    color: #ffff;
+    font-size:200%; 
+    border-color: rgb(0, 0, 0);
+
+}
+
+.text{
+    font-family: 'Alexandria', sans-serif;
+    color:rgb(255, 255, 255); 
+    font-size:200%; 
+}
+
+.country{
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(255, 255, 255); 
+    font-size:500%; 
+}
+
+.state{
+    font-family: 'PT Serif', serif;
+    color:rgb(255, 255, 255); 
+    font-size:400%; 
+}
+
+.city{
+    font-family: 'Lobster Two', cursive;
+    color:rgb(255, 255, 255); 
+    font-size:300%; 
+}
+
+.small{
+    font-family: sans-serif;
+    color:rgb(0, 0, 0); 
+    font-size:150%; 
+}
+
+.otherFont{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:200%; 
+}

@@ -10,8 +10,30 @@
 
 </head>
 <body>
+    <p class = "title"> Let's look out the window!</p>
+    <button class = "window_btn" onclick="make_api_call_getFullData()"> ⊞ Check Outside ⊞</button>
+    <p   id ="you_are_in" class = "text"        > You are in...</p>
+    <p   id ="country_sm" class = "small"       onclick="getCountries()"> </p>
+    <tag id ="country"    class = "country "    > </tag>
+    <p   id ="state_sm"   class = "small"       onclick="getStates()"> </p>
+    <tag id ="state"      class = "state"       > </tag>
+    <p   id ="city_sm"    class = "small"       onclick="getCities()"> </p>
+    <tag id ="city"       class = "city"        > </tag>
+
     
-    <h1 onclick="make_api_call()"> Hello </h1>
+    <p   id ="tp" class = "small otherFont"> </p>
+    <p id ="tp1" class = "title tp"> </p>
+    
+    <p   id ="hu" class = "small otherFont"> </p>
+    <p id ="hu1"class = "title hu"> </p>
+    
+    <p   id ="pr" class = "small otherFont"> </p>
+    <p id ="pr1" class = "title pr"> </p>
+   
+    <p   id ="ws" class = "small otherFont"> </p>
+    <p id ="ws1"class = "title ws"> </p>
+    
+
 
     <script src="usingAPI.js"></script>
 </body>
